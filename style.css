@@ -22,17 +22,17 @@ body{
     border-radius: 16px;
     background: silver;
     box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5);
-
+    
 }
 
 input{
-    width: 320px;
+    width: 400px;
     border: 2px solid green;
     padding: 10px;
     margin: 10px;
     background: lightseagreen;
     box-shadow: 0px 3px 15px rgbs(84, 84, 84, 0.1);
-    font-size: 40px;
+    font-size: 50px;
     text-align: right;
     cursor: pointer;
     color: black;
@@ -42,18 +42,21 @@ input::placeholder{
     color: black;
 }
 
-button{
+.button{
     border: none;
-    width: 60px;
-    height: 40px;
-    margin: 10px;
+    width: 70px;
+    height: 45px;
+    margin: 5px;
     background: white;
     color: black;
-    font-size: 20px;
+    font-size: 28px;
     box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1);
     cursor: pointer;
+    transition: transform 0.2s ease;
 }
-
+button:active{
+    transform: scale(0.94);
+}
 .equalBtn{
     background-color: #fb7c14;
 }
